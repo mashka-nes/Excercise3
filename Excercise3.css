@@ -1,0 +1,41 @@
+* {
+  border: 2px solid cornflowerblue;
+  margin: 5px;
+  padding: 3px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  width: 50vw;
+}
+a {
+  margin: 12px;
+  font-size: 25px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80vh;
+}
+.flex-item1 {
+  width: 75vw;
+}
+.flex-item2 {
+  width: 25vw;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
